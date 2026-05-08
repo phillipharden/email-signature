@@ -1,10 +1,4 @@
 ```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Victory Church Signature</title>
 </head>
 
 <body style="margin:0; padding:20px; background:#ffffff;">
@@ -18,10 +12,199 @@ style="
     font-family:Arial, Helvetica, sans-serif;
 ">
 
-<!-- Your existing code here -->
+<tr>
+
+    <!-- LEFT COLUMN -->
+    <td
+        style="
+            width:240px;
+            padding:28px 20px;
+            vertical-align:top;
+        "
+    >
+
+        <img
+            src="/images/pic.png"
+            alt="Phillip Harden"
+            width="300"
+            height="300"
+            style="
+                display:block;
+                border-radius:50%;
+            "
+        />
+
+    </td>
+
+    <!-- RIGHT COLUMN -->
+    <td
+        style="
+            padding:28px 30px 28px 0;
+            vertical-align:top;
+        "
+    >
+
+        <!-- NAME -->
+        <div
+            style="
+                font-size:42px;
+                line-height:46px;
+                font-weight:700;
+                color:#000000;
+            "
+        >
+            Phillip Harden
+        </div>
+
+        <!-- TITLE -->
+        <div
+            style="
+                font-size:24px;
+                line-height:30px;
+                color:#000000;
+                margin-top:6px;
+                font-weight:500;
+            "
+        >
+            Associate Systems Administrator
+        </div>
+
+        <!-- SPACER -->
+        <div style="height:22px;"></div>
+
+        <!-- CONTACT INFO -->
+        <table
+            cellpadding="0"
+            cellspacing="0"
+            border="0"
+            style="
+                font-family:Arial, Helvetica, sans-serif;
+            "
+        >
+
+            <!-- EMAIL -->
+            <tr>
+                <td style="padding:6px 12px 6px 0;">
+                    <img
+                        src="/images/email.png"
+                        alt="Email"
+                        width="26"
+                        height="26"
+                        style="display:block;"
+                    />
+                </td>
+
+                <td
+                    style="
+                        font-size:24px;
+                        line-height:30px;
+                        color:#000000;
+                    "
+                >
+                    <a
+                        href="mailto:pharden@victoryatl.com"
+                        style="
+                            color:#000000;
+                            text-decoration:none;
+                        "
+                    >
+                        pharden@victoryatl.com
+                    </a>
+                </td>
+            </tr>
+
+            <!-- PHONE -->
+            <tr>
+                <td style="padding:6px 12px 6px 0;">
+                    <img
+                        src="/images/phone.png"
+                        alt="Phone"
+                        width="26"
+                        height="26"
+                        style="display:block;"
+                    />
+                </td>
+
+                <td
+                    style="
+                        font-size:24px;
+                        line-height:30px;
+                        color:#000000;
+                    "
+                >
+                    <a
+                        href="tel:4704502833"
+                        style="
+                            color:#000000;
+                            text-decoration:none;
+                        "
+                    >
+                        470-450-2833
+                    </a>
+                </td>
+            </tr>
+
+            <!-- WEBSITE -->
+            <tr>
+                <td style="padding:6px 12px 6px 0;">
+                    <img
+                        src="/images/web.png"
+                        alt="Website"
+                        width="26"
+                        height="26"
+                        style="display:block;"
+                    />
+                </td>
+
+                <td
+                    style="
+                        font-size:24px;
+                        line-height:30px;
+                        color:#000000;
+                    "
+                >
+                    <a
+                        href="https://victoryatl.com"
+                        style="
+                            color:#000000;
+                            text-decoration:none;
+                        "
+                    >
+                        victoryatl.com
+                    </a>
+                </td>
+            </tr>
+
+        </table>
+
+        <!-- DIVIDER -->
+        <div
+            style="
+                height:1px;
+                background:#d8d8d8;
+                margin:22px 0 18px;
+            "
+        ></div>
+
+        <!-- LOGO -->
+        <img
+            src="/images/logo.png"
+            alt="Victory Church"
+            width="330"
+            style="
+                display:block;
+                width:330px;
+                max-width:330px;
+                height:auto;
+                border:0;
+            "
+        />
+
+    </td>
+
+</tr>
 
 </table>
 
 </body>
-</html>
 ```
